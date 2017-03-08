@@ -2,5 +2,14 @@ body {
 	font-family: 'Roboto';
 }
 .container {
-	padding: 10px;
+	padding-top: 15px;
+}
+
+div.social {
+	margin-top: 25px;
+}
+
+div.socials {
+	width: 70%;
+	margin: auto;
 }
