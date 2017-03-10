@@ -1,7 +1,11 @@
 html {
-	font-family: 'Roboto';
 	opacity: 0;
 }
+
+body {
+	font-family: 'Roboto';
+}
+
 .container {
 	padding-top: 15px;
 	max-width: 500px;
