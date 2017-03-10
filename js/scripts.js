@@ -1,3 +1,3 @@
 $(function() {
-    $('html').animate({opacity: 1}, 2000);
-}); 
+    $('body').animate({opacity: 1}, 2000);
+});

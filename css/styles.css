@@ -1,19 +1,33 @@
-html {
+@media(max-width:767px){
+    .container {
+        margin-top:0 !important;
+		box-shadow: initial !important;
+		border-radius: initial !important;
+    }
+	body {
+		background-color: white !important;
+	}
+}
+body {
+	    background: linear-gradient(45deg, rgba(253, 203, 222, 0.33) 0%,rgba(244, 244, 166, 0.13) 33%,rgba(180, 237, 243, 0.21) 66%,rgba(253, 203, 222, 0.25) 100%);
+	background-attachment: fixed;
+	font-family: 'Roboto';
 	opacity: 0;
 }
 
-body {
-	background-color: white;
-	font-family: 'Roboto';
-}
-
 .container {
+	position: relative;
 	padding-top: 15px;
+	margin-top: 20px;
 	max-width: 450px;
+	background-color: white !important;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+	border-radius: 2px;
 }
 
-div.social {
-	margin-top: 30px;
+div.socials {
+	margin-top: 15px;
+	margin-bottom: 25px;
 }
 
 .fa {
@@ -66,7 +80,7 @@ div.social {
 	color: sienna;
 }
 
-.fa.fa-mobile:hover {
+.fa.fa-phone:hover {
 	color: #A4CA39;
 }
 
