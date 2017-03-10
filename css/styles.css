@@ -4,6 +4,7 @@ html {
 }
 .container {
 	padding-top: 15px;
+	max-width: 500px;
 }
 
 div.social {
@@ -15,5 +16,5 @@ a {
 }
 
 #logo {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
