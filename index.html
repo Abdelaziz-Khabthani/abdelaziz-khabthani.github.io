@@ -20,11 +20,23 @@
     <body>
         <div class="container">
             <!-- Logo -->
+            
             <div id="logo">
                 <div class="row">
                     <div class="col-xs-12 text-center">
                         <svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 100 100">
-                            <circle cx="50" cy="50" r="50" fill="#1a1a1a" />
+                            <defs>
+                                <linearGradient id="logo-gradient" x1="100%" y1="100%">
+                                    <stop offset="0%" stop-color="lightblue" stop-opacity=".5">
+                                        <animate attributeName="stop-color" values="lightblue;blue;red;red;black;red;red;purple;lightblue" dur="14s" repeatCount="indefinite" />
+                                    </stop>
+                                    <stop offset="100%" stop-color="lightblue" stop-opacity=".5">
+                                        <animate attributeName="stop-color" values="lightblue;orange;purple;purple;black;purple;purple;blue;lightblue" dur="14s" repeatCount="indefinite" />
+                                        <animate attributeName="offset" values=".95;.80;.60;.40;.20;0;.20;.40;.60;.80;.95" dur="14s" repeatCount="indefinite" />
+                                    </stop>
+                                </linearGradient>
+                            </defs>
+                            <circle cx="50" cy="50" r="50" fill=url(#logo-gradient) />
                             <text x="50%" y="50%" text-anchor="middle" font-size="63" fill="#eeeeee" dy="21%">AK</text>
                         </svg>
                     </div>
@@ -35,8 +47,8 @@
             <div id="about">
                 <div class="row">
                     <div class="col-xs-12">
-                        <h2>Who am I ?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore illum sequi minus optio placeat dolorum quo qui labore provident consequuntur voluptatem facilis, quisquam delectus perspiciatis illo dolorem sint sunt officiis.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore illum sequi minus optio placeat dolorum quo qui labore provident consequuntur voluptatem facilis, quisquam delectus perspiciatis illo dolorem sint sunt.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore illum sequi minus optio placeat dolorum quo qui labore provident consequuntur voluptatem facilis, quisquam delectus perspiciatis illo dolorem sint sunt.</p>
                     </div>
                 </div>
             </div>
