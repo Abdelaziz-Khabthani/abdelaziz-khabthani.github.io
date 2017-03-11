@@ -2,6 +2,7 @@
 @media(max-width:767px){
     .container {
         margin-top:0 !important;
+		padding-bottom: 0 !important;
 		box-shadow: initial !important;
 		border-radius: initial !important;
     }
@@ -12,26 +13,21 @@
 }
 
 body {
-	    background: linear-gradient(45deg, rgba(253, 203, 222, 0.14) 0%,rgba(244, 244, 166, 0.13) 33%,rgba(180, 237, 243, 0.17) 66%,rgba(253, 203, 222, 0.19) 100%);
+	background: linear-gradient(45deg, rgba(253, 203, 222, 0.14) 0%,rgba(244, 244, 166, 0.13) 33%,rgba(180, 237, 243, 0.17) 66%,rgba(253, 203, 222, 0.19) 100%);
 	background-attachment: fixed;
 	font-family: 'Roboto';
 	opacity: 0;
 }
 
 .container {
-	/*position: relative;*/
 	padding-top: 15px;
+	padding-bottom: 15px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	max-width: 450px;
 	background-color: white !important;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 	border-radius: 2px;
-}
-
-div.socials {
-	margin-top: 15px;
-	margin-bottom: 25px;
 }
 
 .fa {
