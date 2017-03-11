@@ -19,6 +19,9 @@ body {
 	opacity: 0;
 }
 
+hr {
+	margin-bottom: 15px;
+}
 .container {
 	padding-top: 15px;
 	padding-bottom: 15px;
