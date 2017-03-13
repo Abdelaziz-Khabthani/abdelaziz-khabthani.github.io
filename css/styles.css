@@ -6,12 +6,21 @@
 		box-shadow: initial !important;
 		border-radius: initial !important;
     }
+
 	body {
 		background-color: white !important;
 		background: white !important;
 	}
+
+	#keywords {
+		margin-top: 0px !important;
+	}
 }
 
+#keywords {
+	margin-top: 50px;
+	text-align: left;
+}
 .dashed-underline {
 	border-bottom: 1px dashed #999;
     display: inline;
