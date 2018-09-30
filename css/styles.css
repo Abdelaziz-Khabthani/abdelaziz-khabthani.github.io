@@ -29,7 +29,7 @@ body {
 	background: linear-gradient(45deg, rgba(253, 203, 222, 0.14) 0%,rgba(244, 244, 166, 0.13) 33%,rgba(180, 237, 243, 0.17) 66%,rgba(253, 203, 222, 0.19) 100%);
 	background-attachment: fixed;
 	font-display: auto;
-	font-family: 'Roboto';
+	font-family: 'Roboto', sans-serif;
 	opacity: 0;
 }
 
