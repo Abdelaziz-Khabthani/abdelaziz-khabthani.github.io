@@ -1,153 +1,153 @@
-/* For small sized screen only */
-@media(max-width:767px){
-    .container {
-        margin-top:0 !important;
-		padding-bottom: 0 !important;
-		box-shadow: initial !important;
-		border-radius: initial !important;
-    }
+@media(max-width:767px) {
+  .container {
+    margin-top: 0!important;
+    padding-bottom: 0!important;
+    box-shadow: initial!important;
+    border-radius: initial!important;
+  }
 
-	body {
-		background-color: white !important;
-		background: white !important;
-	}
+  body {
+    background-color: #fff!important;
+    background: #fff!important;
+  }
 
-	#keywords {
-		margin-top: 0px !important;
-	}
+  #keywords {
+    margin-top: 0!important;
+  }
 }
 
 .orange {
-    color: #dd4b39;
+  color: #dd4b39;
 }
 
 a.sfeir {
-    font-weight: bold;
+  font-weight: 700;
 }
 
-a.sfeir, a.sfeir:visited{
-    text-decoration: inherit;
-    color: #3b5998;
+a.sfeir,a.sfeir:visited {
+  text-decoration: inherit;
+  color: #3b5998;
 }
 
-#keywords {
-	margin-top: 50px;
-	text-align: left;
-}
 .dashed-underline {
-	border-bottom: 1px dashed #999;
-    display: inline;
+  border-bottom: 1px dashed #999;
+  display: inline;
 }
+
 body {
-	background: linear-gradient(45deg, rgba(253, 203, 222, 0.14) 0%,rgba(244, 244, 166, 0.13) 33%,rgba(180, 237, 243, 0.17) 66%,rgba(253, 203, 222, 0.19) 100%);
-	background-attachment: fixed;
-	font-display: auto;
-	font-family: 'Roboto', sans-serif;
-	opacity: 0;
+  background: linear-gradient(45deg,rgba(253,203,222,.14) 0,rgba(244,244,166,.13) 33%,rgba(180,237,243,.17) 66%,rgba(253,203,222,.19) 100%);
+  background-attachment: fixed;
+  font-display: auto;
+  font-family: Roboto,sans-serif;
+  opacity: 0;
 }
 
 hr {
-	margin-bottom: 15px;
+  margin-bottom: 15px;
 }
+
 .container {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	max-width: 450px;
-	background-color: white !important;
-	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	border-radius: 2px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 450px;
+  background-color: #fff!important;
+  box-shadow: 0 3px 6px rgba(0,0,0,.16),0 3px 6px rgba(0,0,0,.23);
+  border-radius: 2px;
 }
 
 .fa {
-	-webkit-transition: color 2s;
-    transition: color 0.5s;
-	color: rgb(51, 51, 51);
+  -webkit-transition: color 2s;
+  transition: color .5s;
+  color: #333;
 }
 
 .fa.fa-facebook:hover {
-	color: #3b5998;
+  color: #3b5998;
 }
 
 .fa.fa-github:hover {
-	color: #000000;
+  color: #000;
 }
 
 .fa.fa-linkedin:hover {
-	color: #007bb5;
+  color: #007bb5;
 }
 
 .fa.fa-stack-overflow:hover {
-	color: #F48024;
+  color: #f48024;
 }
 
 .fa.fa-google-plus:hover {
-	color: #dd4b39;
+  color: #dd4b39;
 }
 
 .fa.fa-instagram:hover {
-	color: #fccc63;
+  color: #fccc63;
 }
 
 .fa.fa-twitter:hover {
-	color: #55acee;
+  color: #55acee;
 }
 
 .fa.fa-skype:hover {
-	color: #00aff0;
+  color: #00aff0;
 }
 
 .fa.fa-quora:hover {
-	color: #a82400;
+  color: #a82400;
 }
 
 .fa.fa-envelope:hover {
-	color: #dd4b39;
+  color: #dd4b39;
 }
 
 .fa.fa-file:hover {
-	color: #dd4b39;
+  color: #dd4b39;
 }
 
 .fa.fa-phone:hover {
-	color: #A4CA39;
+  color: #a4ca39;
 }
 
 #about {
-	text-align: justify;
+  text-align: justify;
 }
 
-/* Github Corner */
-.github-corner > svg {
-	fill:rgb(51, 51, 51);
-	color:#fff;
-	position: absolute;
-	top: 0;
-	border: 0;
-	right: 0;
+.github-corner>svg {
+  fill: #333;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  border: 0;
+  right: 0;
 }
+
 .github-corner:hover .octo-arm {
-    animation: octocat-wave 560ms ease-in-out
+  animation: octocat-wave 560ms ease-in-out;
 }
+
 @keyframes octocat-wave {
-    0%, 100% {
-        transform: rotate(0)
-    }
-    20%,
-    60% {
-        transform: rotate(-25deg)
-    }
-    40%,
-    80% {
-        transform: rotate(10deg)
-    }
+  0%,100% {
+    transform: rotate(0);
+  }
+
+  20%,60% {
+    transform: rotate(-25deg);
+  }
+
+  40%,80% {
+    transform: rotate(10deg);
+  }
 }
-@media (max-width: 500px) {
-    .github-corner:hover .octo-arm {
-        animation: none
-    }
-    .github-corner .octo-arm {
-        animation: octocat-wave 560ms ease-in-out
-    }
+
+@media (max-width:500px) {
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
 }
