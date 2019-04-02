@@ -17,6 +17,19 @@
 	}
 }
 
+.orange {
+    color: #dd4b39;
+}
+
+a.sfeir {
+    font-weight: bold;
+}
+
+a.sfeir, a.sfeir:visited{
+    text-decoration: inherit;
+    color: #3b5998;
+}
+
 #keywords {
 	margin-top: 50px;
 	text-align: left;
